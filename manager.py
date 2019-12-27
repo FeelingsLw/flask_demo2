@@ -5,7 +5,7 @@ from apps.model import db
 
 migrate = Migrate(app, db)
 manger = Manager(app)
-# 注释下
+# 注释下 12322132
 manger.add_command('db', MigrateCommand)
 
 '''
